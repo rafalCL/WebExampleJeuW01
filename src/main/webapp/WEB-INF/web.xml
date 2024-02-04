@@ -19,4 +19,14 @@
         <servlet-name>superservlet</servlet-name>
         <url-pattern>/superservlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlet12</servlet-name>
+        <servlet-class>pl.coderslab.webexamplejeuw01.web.Servlet12</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Servlet12</servlet-name>
+        <url-pattern>/servlet12</url-pattern>
+    </servlet-mapping>
 </web-app>
